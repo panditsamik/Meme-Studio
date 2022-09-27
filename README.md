@@ -37,7 +37,9 @@ Volley is an HTTP library that makes networking for Android apps easier and most
 ### Send a Simple Request
 
 To use Volley, you must add the 
+
 <android.permission.INTERNET>
+
 permission toyour app’s manifest. Without this,
 your app won’t be able
 to connect to the network.
