@@ -6,7 +6,7 @@ Used Volley library in Android for the API call.
 
 Used Glide for image loading framework.
 
-### Glide Overview
+## Glide Overview
 
 Glide is a fast and efficient open source media management and image loading 
 framework for Android that wraps media decoding, memory and disk caching, and 
@@ -14,7 +14,7 @@ resource pooling into a simple and easy to use interface.Glide supports fetching
 decoding, and displaying video stills, images, and animated GIFs. Glide includes 
 a flexible API that allows developers to plug in to almost any network stack.
 
-## Use Gradle
+### Use Gradle
 
 ```
 repositories {
@@ -30,11 +30,11 @@ dependencies {
 #### For more information on Glide
 <https://github.com/bumptech/glide>
 
-### Volley Overview
+## Volley Overview
 
 Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
 
-## Send a Simple Request
+### Send a Simple Request
 
 To use Volley, you must add 
 the <android.permission.INTERNET> permission to
@@ -49,7 +49,7 @@ dependencies {
 }
 ```
 
-## Use newRequestQueue
+### Use newRequestQueue
 
 Kolin
 
@@ -102,7 +102,7 @@ StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
 queue.add(stringRequest);
 ```
 
-# Use a singleton pattern
+### Use a singleton pattern
 
 Kotlin
 
@@ -211,7 +211,7 @@ Java
 MySingleton.getInstance(this).addToRequestQueue(stringRequest);
 ```
 
-### For more information
+#### For more information
 
 <https://google.github.io/volley/requestqueue.html>
 
